@@ -1,0 +1,82 @@
+body {
+    background-color: #00DBDE;
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    height: 100%;
+}
+.wrapper {
+    width: 800px;
+    margin: 30px auto;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 350px;
+}
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 2.6em;
+    text-transform: uppercase;
+}
+#seconds, #tens {
+    font-size: 2em;
+}
+button {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -khtml-border-radius: 5px;
+    background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+    color: #fff;
+    border: solid 1px #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 18px 10px;
+    width: 180px;
+    margin: 10px;
+    outline: none;
+}
+button:hover {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    background: #fff;
+    border: solid 1px #fff;
+    color: #ffa600;
+}
+/* body {
+    background: black;
+} */
+
+.clock-analog{
+    width: 320px;
+    height: 320px;
+    position: relative;
+    border: 1px solid skyblue;
+    border-radius: 50%;
+    left: 569px;
+    bottom: 350px;
+    background: url(https://64.media.tumblr.com/37dc14ef14c88c4dbe62afc711a7a04e/edde7c6361824e19-b2/s540x810/844f9df06ee390c9620a4ffa620ef4041b5b6a83.gif);
+}
+
+.clock {
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: currentcolor;
+    font-size: 50px;
+    font-family: Orbitron;
+    letter-spacing: 5px;
+    /* border: 1px solid black; */
+    /* width: 300px;
+    height: 300px;
+    border-radius: 50%; */
+   
+
+
+}
